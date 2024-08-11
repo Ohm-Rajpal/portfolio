@@ -33,9 +33,6 @@ export default function Home() {
           {/* change to bg-gray-800 maybe */}
           <section className="min-h-screen bg-gray-900 font-monrope"> 
 
-            {/* CHANGE V = IR to an omega symbol when screen size becomes smaller! Also change buttons to 
-                navigation icon later
-            */}
             {/* Nav bar */} 
             {/* bg-teal-500 */}
             <MyNav />
