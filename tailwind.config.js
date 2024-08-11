@@ -8,9 +8,10 @@ module.exports = {
   theme: {
  extend: {
       fontFamily: {
-        'display': ['Oswald'],
-        'body': ['"Open Sans"'],
-        'lato': ['Lato', 'sans-serif'],
+        display: ['Oswald'],
+        body: ['"Open Sans"'],
+        lato: ['Lato', 'sans-serif'],
+        serif: ['monrope'],
       },
     },
   },

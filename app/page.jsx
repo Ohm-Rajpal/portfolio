@@ -5,17 +5,18 @@ import Head from "next/head";
 import MyNav from "./MyComponents/MyNav";
 import { React, useRef } from "react"; 
 
-import FrontPage from "./MyComponents/FrontPage";
+import HomePage from "./MyComponents/HomePage";
 import MyFooter from "./MyComponents/MyFooter";
+import AboutPage from "./MyComponents/AboutPage";
 
 export default function Home() {
 
 
-  // figure out scrolling logic latr
-  const navBar = useRef(null);
-  const aboutPage = useRef(null);
-  const resumePage = useRef(null);
-  const footerPage = useRef(null);
+  // figure out smooth animation later
+  // const navBar = useRef(null);
+  // const aboutPage = useRef(null);
+  // const resumePage = useRef(null);
+  // const footerPage = useRef(null);
 
   return (
       <div>
@@ -30,24 +31,25 @@ export default function Home() {
           {/* Figure out how useRef works so you can implement the scrolling feature! */}
 
           {/* change to bg-gray-800 maybe */}
-          <section className="min-h-screen font-manrope bg-gray-900"> 
+          <section className="min-h-screen bg-gray-900 font-monrope"> 
 
             {/* CHANGE V = IR to an omega symbol when screen size becomes smaller! Also change buttons to 
                 navigation icon later
             */}
             {/* Nav bar */} 
             {/* bg-teal-500 */}
-            <MyNav ref={navBar} />
-            {/* Front page */}
-            <FrontPage ref={aboutPage} />
+            <MyNav />
+            {/* Home page */}
+            <HomePage />
+
+            {/* About page */}
+            <AboutPage />
 
             {/* Footer */}
             <MyFooter />
 
           </section>
         </main>
-        
-         
       </div>
   );
 }
