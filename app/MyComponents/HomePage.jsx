@@ -10,7 +10,7 @@ export default function FrontPage() {
         <h2 className="text-6xl	py-2 text-cyan-300">Ohm Rajpal</h2>
 
         <div className="flex justify-center py-2">
-          <img className="rounded-full object-scale-downh-48 w-80" src="/pfp/ohm-rajpal.jpg" alt="Ohm Rajpal"/>
+          <img className="rounded-full object-scale-downh-48 w-80" src="/img/ohm-rajpal.jpg" alt="Ohm Rajpal"/>
         </div>
         
         <h3 className="text-2xl pt-4 text-white">Software Engineer and Aspiring Undergraduate Researcher</h3>

@@ -6,7 +6,7 @@ export default function MyFooter() {
     return (
       <div className="w-full h-auto pb-3">
         <div className="text-cyan-300 flex justify-center text-md font-bold py-3 px-4 underline underline-offset-8">
-          <a className="hover:text-pink-400" href="mailto:ohm_rajpal@berkeley.edu">Contact Me</a>
+          <a className="hover:text-pink-400 text-2xl mb-4" href="mailto:ohm_rajpal@berkeley.edu">Contact Me</a>
         </div>
 
         <ul className="text-cyan-300 text-5xl flex flex-row justify-center space-x-6 text-md">
