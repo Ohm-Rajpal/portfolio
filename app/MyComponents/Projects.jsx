@@ -54,6 +54,7 @@ export default function Projects() {
 
         </div>
               
+        <ChevronDownAnimated />
       </div>
     )
 }

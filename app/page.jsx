@@ -44,10 +44,8 @@ export default function Home() {
             <MyNav />
             {/* Home page */}
             <HomePage />
-            <ChevronDownAnimated />
             {/* About page */}
             <AboutPage />
-            <ChevronDownAnimated />
             {/* Footer */}
             <MyFooter />
 
