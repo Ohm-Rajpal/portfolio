@@ -1,7 +1,7 @@
-import React from "react";
+import { React, forwardRef } from "react";
 import CustomButton from "./CustomButton";
 
-export default function MyNav({navBar}) {
+function MyNav() {
     
     return (
     <nav className="plr-4 py-10 mb-12 flex justify-between">
@@ -20,7 +20,7 @@ export default function MyNav({navBar}) {
         </li>
         
         <li className="px-1">
-          <CustomButton innerText={"About"} />
+          <CustomButton innerText={"Projects"} />
         </li>
           
         <li className="px-1">
@@ -34,3 +34,5 @@ export default function MyNav({navBar}) {
     </nav>
     )
 }
+
+export default forwardRef(MyNav)
