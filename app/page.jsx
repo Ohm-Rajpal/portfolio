@@ -10,6 +10,7 @@ import { FaChevronDown } from "react-icons/fa";
 import HomePage from "./MyComponents/HomePage";
 import MyFooter from "./MyComponents/MyFooter";
 import AboutPage from "./MyComponents/Projects";
+import ChevronDownAnimated from "./MyComponents/ChevronDownAnimated";
 
 
 export default function Home() {
@@ -43,8 +44,10 @@ export default function Home() {
             <MyNav />
             {/* Home page */}
             <HomePage />
+            <ChevronDownAnimated />
             {/* About page */}
             <AboutPage />
+            <ChevronDownAnimated />
             {/* Footer */}
             <MyFooter />
 

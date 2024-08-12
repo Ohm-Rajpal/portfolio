@@ -21,7 +21,6 @@ export default function FrontPage() {
           in full stack web development 💻, machine learning 🧠, aerospace technology 🚀, and more! 
           </p>
         </div>
-        <ChevronDownAnimated />
         
       </div>
     )
