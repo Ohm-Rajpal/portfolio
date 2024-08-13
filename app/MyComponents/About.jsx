@@ -20,9 +20,9 @@ export default function About() {
                         <img className="rounded-full object-cover w-96" src="/img/ohm.jpg" alt="Ohm Rajpal"/>
                     </div>
                     <p className="text-xl py-5 leading-8 text-pretty text-white w-full md:w-1/2">
-                    Hello! My name is Ohm, and I am an Electrical Engineering and Computer Sciences (EECS) student at UC Berkeley. I am currently
+                    Hello! My name is Ohm, and I am an Electrical Engineering and Computer Sciences EECS student at UC Berkeley. I am currently
                     building full stack web applications and learning more about LLMs. When I am not coding, some of my hobbies inlcude
-                    swimming, playing Minecraft, and solving the daily Semantle puzzle! Let's connect and work together! 
+                    swimming, playing Minecraft, and solving the daily Semantle puzzle! Let&rsquo;s connect and work together! 
                     </p>
                 </div>
             </div>
