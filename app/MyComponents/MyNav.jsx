@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { React } from "react";
 import CustomButton from "./CustomButton";
 import { scrollTo } from '../scrollTo';
 
@@ -28,33 +28,15 @@ export default function MyNav() {
         </li>
 
         <li className="px-1">
-          <CustomButton innerText={"Resume"} />
+          <CustomButton innerText={"Resume"} onClick={() => {
+            window.location.href = "https://drive.google.com/file/d/1M_vaRet-f_DwfrEJWZ1FTM7olLXJ8f7w/view?usp=sharing";
+          }}/>
         </li>
 
         <li className="px-1">
           <CustomButton innerText={"Contact"} onClick={() => handleButtonClick('footer')} />
         </li>
       </ul>
-
-      {/* <ul className="flex justify-center pr-4 rounded-md">
-        <li className="px-1">
-          <CustomButton innerText={"Home"} />
-        </li>
-        
-        <li className="px-1">
-          <CustomButton innerText={"Projects"}  />
-        </li>
-          
-        <li className="px-1">
-          <CustomButton innerText={"Resume"} />
-        </li>
-        
-        <li className="px-1">
-          <CustomButton innerText={"Contact"} />
-        </li>
-      </ul> */}
     </nav>
-
-
     )
 }

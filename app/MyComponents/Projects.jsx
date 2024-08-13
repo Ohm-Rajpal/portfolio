@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import Experience from "./Experience";
 import { scrollTo } from "../scrollTo";
 import MyArrow from "./MyArrow";

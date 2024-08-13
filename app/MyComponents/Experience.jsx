@@ -1,8 +1,6 @@
-import { React, useState} from "react";
+import { React } from "react";
 
 export default function Experience({justifyDir, imgName, title, description, skills, githubLink}) {
-    
-    // use react state
 
     return (        
         <div id="big" 

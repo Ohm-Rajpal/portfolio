@@ -1,9 +1,8 @@
 import React from "react";
 import { TiSocialGithub, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
-import { FaDiscord } from "react-icons/fa";
-import { FaChevronUp } from "react-icons/fa";
 import { scrollTo } from "../scrollTo";
 import CustomButton from "./CustomButton";
+// import { FaDiscord } from "react-icons/fa";
 
 export default function MyFooter({mySize}) {
 
@@ -21,17 +20,8 @@ export default function MyFooter({mySize}) {
           <a className="hover:scale-125 hover:text-pink-400" href="https://github.com/Ohm-Rajpal" target="_blank"><TiSocialGithub size={mySize}/></a>
           <a className="hover:scale-125 hover:text-pink-400" href="https://www.instagram.com/ohmrajpal/?__d=1" target="_blank"><TiSocialInstagram size={mySize}/></a>
           <a className="hover:scale-125 hover:text-pink-400" href="https://www.linkedin.com/in/ohmrajpal" target="_blank"><TiSocialLinkedin size={mySize}/></a>
-          <a className="hover:scale-125 hover:text-pink-400" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><FaDiscord size={mySize}/></a>
-        </ul>
-
-        {/* <div className="flex justify-center items-center pt-5">
-          <div className="hover:scale-110">
-            <div className="hover:text-pink-300 p-2 rounded-full text-white" onClick={() => handleButtonClick('home')}>
-              <FaChevronUp className="text-md"/>
-            </div>
-          </div>
-        </div> */}
-        
+          {/* <a className="hover:scale-125 hover:text-pink-400" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><FaDiscord size={mySize}/></a> */}
+        </ul>        
         
         <div className="flex justify-center pt-4">
           <CustomButton innerText={"Home"} onClick={() => handleButtonClick('home')}/>

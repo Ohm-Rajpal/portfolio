@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image'
 import MyArrow from "./MyArrow";
 import { scrollTo } from "../scrollTo";
 
@@ -29,11 +28,8 @@ export default function FrontPage() {
           </p>
         </div>
 
-
-        {/* Chevron Down */}
         <MyArrow onClick={() => handleButtonClick('projects')} />
 
-       
       </div>
     )
 }

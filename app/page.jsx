@@ -1,8 +1,5 @@
 'use client'
 
-import Image from "next/image";
-import Link from 'next/link'
-
 import './globals.css';
 import Head from "next/head";
 import MyNav from "./MyComponents/MyNav";
@@ -23,31 +20,29 @@ export default function Home() {
           <link rel='icon' href='/favicon.ico' />
         </Head>
 
-        
         <main>
-
-        <div className="scrollbar scrollbar-thumb-cyan-300 font-monrope">
-          <section id="home" className="scroll-smooth"> 
-            <div className="min-h-screen bg-gray-900"> 
-              {/* Navigation Bar */}
-              <MyNav />
-              {/* Home Page Section */}
-              <HomePage/>
-            </div>
-          </section>
-          <section id="projects" className="scroll-smooth"> 
-            <div className="min-h-screen bg-gray-900"> 
-              {/* Projects Section */}
-              <Projects />
-            </div>
-          </section>
-          <section id="footer" className="scroll-smooth flex flex-col justify-end"> 
-            <div className="bg-gray-900"> 
-              {/* Footer Section */}
-              <MyFooter mySize={45} />
-            </div>
-          </section>
-        </div>
+          <div className="scrollbar scrollbar-thumb-cyan-300 font-monrope">
+            <section id="home" className="scroll-smooth"> 
+              <div className="min-h-screen bg-gray-900"> 
+                {/* Navigation Bar */}
+                <MyNav />
+                {/* Home Page */}
+                <HomePage/>
+              </div>
+            </section>
+            <section id="projects" className="scroll-smooth"> 
+              <div className="min-h-screen bg-gray-900"> 
+                {/* Projects */}
+                <Projects />
+              </div>
+            </section>
+            <section id="footer" className="scroll-smooth flex flex-col justify-end"> 
+              <div className="bg-gray-900"> 
+                {/* Footer */}
+                <MyFooter mySize={45} />
+              </div>
+            </section>
+          </div>
         </main>
       </div>
   );
