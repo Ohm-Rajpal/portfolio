@@ -28,7 +28,7 @@ export default function FrontPage() {
           </p>
         </div>
 
-        <MyArrow onClick={() => handleButtonClick('about')} />
+        <MyArrow onClick={() => handleButtonClick('projects')} />
 
       </div>
     )

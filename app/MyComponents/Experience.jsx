@@ -13,14 +13,14 @@ export default function Experience({justifyDir, imgName, title, description, ski
                     <img src={imgName} alt="Ohm Rajpal"/>
                 </div>
                 
-                <div class="px-3 py-1">
-                    <div class="font-bold text-lg mb-2 text-white">{title}</div>
-                    <p class="text-cyan-300 text-sm text-pretty">{description}</p>
+                <div className="px-3 py-1">
+                    <div className="font-bold text-lg mb-2 text-white">{title}</div>
+                    <p className="text-cyan-300 text-sm text-pretty">{description}</p>
                 </div>
-                <div class="px-3 pt-1 pb-1">
+                <div className="px-3 pt-1 pb-1">
                     {
                         skills.map((skill, index) => (
-                            <span key={index} class="inline-block bg-cyan-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:animate-pulse">{skill}</span>
+                            <span key={index} className="inline-block bg-cyan-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:animate-pulse">{skill}</span>
                         ))
                     }
                 </div>
