@@ -6,16 +6,11 @@ import Link from 'next/link'
 import './globals.css';
 import Head from "next/head";
 import MyNav from "./MyComponents/MyNav";
-import { React, useRef } from "react"; 
-// import { Routes, Route } from 'react-router-dom';
-
-import { FaChevronDown } from "react-icons/fa";
+import { React } from "react"; 
 
 import HomePage from "./MyComponents/HomePage";
 import Projects from "./MyComponents/Projects";
 import MyFooter from "./MyComponents/MyFooter";
-
-// import ChevronDownAnimated from "./MyComponents/ChevronDownAnimated";
 
 
 export default function Home() {
@@ -30,45 +25,6 @@ export default function Home() {
 
         
         <main>
-
-          {/* Last things to complete */}
-          {/* Create a drop down menu for navigation */}
-          {/* Add make scrolling for bouncing button to work! */}
-          {/* Major item: make the scrolling actually work!! */}
-          
-          {/* Add a button that enables you to scroll all the way up */}
-
-          {/* <div className="scrollbar scrollbar-thumb-cyan-300"> */}
-            {/* <section className="min-h-screen bg-gray-900 font-monropescroll-smooth">  */}
-              {/* <section className="min-h-screen bg-gray-900 font-monro scroll-smooth"> */}
-                {/* Navigation Bar */}
-                {/* <MyNav /> */}
-                {/* Home Page Section */}
-                {/* <HomePage /> */}
-                {/* Projects Section */}
-                {/* <Projects /> */}
-                {/* Footer Section */}
-                {/* <MyFooter mySize={45} /> */}
-              {/* </section> */}
-            {/* </section> */}
-          {/* </div> */}
-
-
-        {/* This works but causes things to go wrong, also homepage disappears  */}
-        {/* <div className="scrollbar scrollbar-thumb-cyan-300"> */}
-          {/* <section id="home" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
-            {/* Navigation Bar */} 
-            {/* <MyNav /> */}
-          {/* </section> */}
-          {/* <section id="projects" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
-            {/* Projects Section */}
-            {/* <Projects /> */}
-          {/* </section> */}
-          {/* <section id="footer" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
-            {/* Footer Section */}
-            {/* <MyFooter mySize={45} /> */}
-          {/* </section> */}
-        {/* </div>  */}
 
         <div className="scrollbar scrollbar-thumb-cyan-300 font-monrope">
           <section id="home" className="scroll-smooth"> 
