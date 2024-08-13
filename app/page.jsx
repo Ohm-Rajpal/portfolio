@@ -1,30 +1,24 @@
 'use client'
 
 import Image from "next/image";
+import Link from 'next/link'
+
+import './globals.css';
 import Head from "next/head";
 import MyNav from "./MyComponents/MyNav";
-import { React, useRef, useState, useEffect } from "react"; 
+import { React, useRef } from "react"; 
+// import { Routes, Route } from 'react-router-dom';
 
 import { FaChevronDown } from "react-icons/fa";
 
 import HomePage from "./MyComponents/HomePage";
+import Projects from "./MyComponents/Projects";
 import MyFooter from "./MyComponents/MyFooter";
-import AboutPage from "./MyComponents/Projects";
-import ChevronDownAnimated from "./MyComponents/ChevronDownAnimated";
+
+// import ChevronDownAnimated from "./MyComponents/ChevronDownAnimated";
 
 
 export default function Home() {
-
-
-  // figure out smooth animation later
-  const homeRef = useRef(null);
-  const aboutRef = useRef(null);
-  const footerRef = useRef(null);
-
-  function scrollToComponent(ref) {
-    ref.current?.scrollToComponent({ behavior: "smooth"})
-  }
-
 
   return (
       <div>
@@ -34,22 +28,70 @@ export default function Home() {
           <link rel='icon' href='/favicon.ico' />
         </Head>
 
+        
         <main>
 
-          {/* Figure out how useRef works so you can implement the scrolling feature! */}
+          {/* Last things to complete */}
+          {/* Create a drop down menu for navigation */}
+          {/* Add make scrolling for bouncing button to work! */}
+          {/* Major item: make the scrolling actually work!! */}
+          
+          {/* Add a button that enables you to scroll all the way up */}
 
-          {/* change to bg-gray-800 maybe */}
-          <section className="min-h-screen bg-gray-900 font-monrope transition-all duration-300 ease-in-out scroll-smooth"> 
-            {/* Nav bar */} 
-            <MyNav />
-            {/* Home page */}
-            <HomePage />
-            {/* About page */}
-            <AboutPage />
-            {/* Footer */}
-            <MyFooter />
+          {/* <div className="scrollbar scrollbar-thumb-cyan-300"> */}
+            {/* <section className="min-h-screen bg-gray-900 font-monropescroll-smooth">  */}
+              {/* <section className="min-h-screen bg-gray-900 font-monro scroll-smooth"> */}
+                {/* Navigation Bar */}
+                {/* <MyNav /> */}
+                {/* Home Page Section */}
+                {/* <HomePage /> */}
+                {/* Projects Section */}
+                {/* <Projects /> */}
+                {/* Footer Section */}
+                {/* <MyFooter mySize={45} /> */}
+              {/* </section> */}
+            {/* </section> */}
+          {/* </div> */}
 
+
+        {/* This works but causes things to go wrong, also homepage disappears  */}
+        {/* <div className="scrollbar scrollbar-thumb-cyan-300"> */}
+          {/* <section id="home" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
+            {/* Navigation Bar */} 
+            {/* <MyNav /> */}
+          {/* </section> */}
+          {/* <section id="projects" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
+            {/* Projects Section */}
+            {/* <Projects /> */}
+          {/* </section> */}
+          {/* <section id="footer" className="min-h-screen bg-gray-900 font-monro scroll-smooth">  */}
+            {/* Footer Section */}
+            {/* <MyFooter mySize={45} /> */}
+          {/* </section> */}
+        {/* </div>  */}
+
+        <div className="scrollbar scrollbar-thumb-cyan-300 font-monrope">
+          <section id="home" className="scroll-smooth"> 
+            <div className="min-h-screen bg-gray-900"> 
+              {/* Navigation Bar */}
+              <MyNav />
+              {/* Home Page Section */}
+              <HomePage/>
+            </div>
           </section>
+          <section id="projects" className="scroll-smooth"> 
+            <div className="min-h-screen bg-gray-900"> 
+              {/* Projects Section */}
+              <Projects />
+            </div>
+          </section>
+          <section id="footer" className="scroll-smooth flex flex-col justify-end"> 
+            <div className="bg-gray-900"> 
+              {/* Footer Section */}
+              <MyFooter mySize={45} />
+            </div>
+          </section>
+        </div>
         </main>
       </div>
   );

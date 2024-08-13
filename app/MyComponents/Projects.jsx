@@ -1,18 +1,21 @@
 import { React, useState } from "react";
-import ChevronDownAnimated from "./ChevronDownAnimated";
 import Experience from "./Experience";
+import { scrollTo } from "../scrollTo";
+import MyArrow from "./MyArrow";
 
 export default function Projects() {
     
+  const handleButtonClick = (id) => {
+    scrollTo(id)
+  }
+
+
   return (
-        
-  
-
     <div className="text-center text-wrap p-10">
-        <h2 className="text-4xl mb-5 text-cyan-300">Here are some of my projects...</h2>
+        <h2 className="text-4xl mb-3 text-cyan-300">Here are some of my projects...</h2>
         
 
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-2 md:gap-8 mb-6">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-2 md:gap-8 mb-1">
             
         <Experience
         justifyDir={"justify-end"} 
@@ -54,7 +57,8 @@ export default function Projects() {
 
         </div>
               
-        <ChevronDownAnimated />
+        <MyArrow onClick={() => handleButtonClick('footer')} />
+
       </div>
     )
 }
