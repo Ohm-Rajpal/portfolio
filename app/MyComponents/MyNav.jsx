@@ -10,16 +10,14 @@ export default function MyNav() {
 
     return (
     <nav className="plr-4 py-10 mb-10 flex justify-center">
-      {/* <div className="text-cyan-300 text-xl font-bold py-2 px-4 underline-offset-8">
-        <a className="text-2xl hidden sm:block animate-bounce" href="https://en.wikipedia.org/wiki/Ohm%27s_law" target="_blank">
-          Ω
-        </a>
-        <a className="text-2xl block sm:hidden animate-pulse" href="https://en.wikipedia.org/wiki/Ohm%27s_law" target="_blank">
-          Ω
-        </a>
-      </div> */}
+
     
       <ul className="flex justify-center rounded-md">
+
+        <li className="px-1">
+          <CustomButton innerText={"About Me"} onClick={() => handleButtonClick('about')} />
+        </li>
+
         {/* <li className="px-1">
           <CustomButton innerText={"Home"} onClick={() => handleButtonClick('home')} />
         </li> */}

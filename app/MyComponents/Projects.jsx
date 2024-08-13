@@ -9,10 +9,9 @@ export default function Projects() {
     scrollTo(id)
   }
 
-
   return (
     <div className="text-center text-wrap p-10">
-        <h2 className="text-4xl mb-3 text-cyan-300">Here are some of my projects...</h2>
+        <h2 className="text-5xl mb-3 text-cyan-300">Here are some of my projects...</h2>
         
 
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-2 md:gap-8 mb-1">

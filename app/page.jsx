@@ -8,6 +8,7 @@ import { React } from "react";
 import HomePage from "./MyComponents/HomePage";
 import Projects from "./MyComponents/Projects";
 import MyFooter from "./MyComponents/MyFooter";
+import About from './MyComponents/About';
 
 
 export default function Home() {
@@ -30,6 +31,13 @@ export default function Home() {
                 <HomePage/>
               </div>
             </section>
+
+            <section id="about" className="scroll-smooth"> 
+              <div className="bg-gray-900"> 
+                <About />
+              </div>
+            </section>
+
             <section id="projects" className="scroll-smooth"> 
               <div className="min-h-screen bg-gray-900"> 
                 {/* Projects */}
