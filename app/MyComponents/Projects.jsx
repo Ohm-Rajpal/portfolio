@@ -40,7 +40,7 @@ export default function Projects() {
         justifyDir={"justify-end"}
         imgName={"/img/bear.png"}
         title={'Personal Website'}
-        description={"The website you are looking at right now!! :D"}
+        description={"The website you are looking at right now! Created modular components using React with custom Tailwind CSS styling."}
         skills={['Next.js', 'React', 'Tailwind CSS', 'JavaScript']}
         githubLink={'https://github.com/Ohm-Rajpal/portfolio'}
         /> 
