@@ -2,7 +2,6 @@ import React from "react";
 import { TiSocialGithub, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
 import { scrollTo } from "../scrollTo";
 import CustomButton from "./CustomButton";
-// import { FaDiscord } from "react-icons/fa";
 
 export default function MyFooter({mySize}) {
 
@@ -20,14 +19,15 @@ export default function MyFooter({mySize}) {
           <a className="hover:scale-125 hover:text-pink-400" href="https://github.com/Ohm-Rajpal" target="_blank"><TiSocialGithub size={mySize}/></a>
           <a className="hover:scale-125 hover:text-pink-400" href="https://www.instagram.com/ohmrajpal/?__d=1" target="_blank"><TiSocialInstagram size={mySize}/></a>
           <a className="hover:scale-125 hover:text-pink-400" href="https://www.linkedin.com/in/ohmrajpal" target="_blank"><TiSocialLinkedin size={mySize}/></a>
-          {/* <a className="hover:scale-125 hover:text-pink-400" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><FaDiscord size={mySize}/></a> */}
         </ul>        
         
         <div className="flex justify-center pt-4">
           <CustomButton innerText={"Home"} onClick={() => handleButtonClick('home')}/>
         </div>
         
-        <div className="flex justify-center">  
+        <div className="text-center text-wrap ">  
+        
+          <p className="text-white text-lg p-5 mt-4">Made with ⚡ by Ohm Rajpal</p>
           <p className="text-white text-lg p-5 mb-2">Copyright © 2024 Ohm Rajpal. All Rights Reserved.</p>
         </div>
       
