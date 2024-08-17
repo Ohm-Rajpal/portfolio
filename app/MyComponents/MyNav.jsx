@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CustomButton from "./CustomButton";
+import { CiMenuBurger } from "react-icons/ci";
 import { scrollTo } from '../scrollTo';
 
 export default function MyNav() {
@@ -16,8 +17,8 @@ export default function MyNav() {
     return (
         <nav className="px-4 py-10 mb-10 flex flex-col justify-center items-center">
 
-            <div className="md:hidden text-cyan-300 animate-bounce pb-2">
-              <CustomButton onClick={handleMenuPress} innerText={"Ω"} />
+            <div className="md:hidden text-cyan-300 pb-2 font-bold text-lg">
+                <CiMenuBurger onClick={handleMenuPress} size={30}/>
             </div>
 
             <div className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? 'max-h-96' : 'max-h-0'} md:max-h-none md:flex md:items-center`}>
