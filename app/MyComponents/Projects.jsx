@@ -49,7 +49,7 @@ export default function Projects() {
         justifyDir={"justify-start"}
         imgName={"/img/gan.png"}
         title={'Deep Oculos 1'}
-        description={"Won 2nd prize at Berkeley's 5th Datathon! Recieved eye retinal data from C. Light Technologies Generated Synthetic Retinal Eye Motion Videos with Deep Convolutional GAN"}
+        description={"Won 2nd prize at Berkeley's 5th Datathon! Recieved eye retinal data from C. Light Technologies. Generated Synthetic Retinal Eye Motion Videos with Deep Convolutional GAN"}
         skills={['Python', 'Tensorflow', 'Scikit-Learn', 'OpenCV', 'Seaborn / Matplotlib', 'numpy']}
         githubLink={'https://github.com/MarcusUniversee/DeepOculos'}
         />  
