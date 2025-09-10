@@ -17,13 +17,11 @@ export default function About() {
                 
                 <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5 justify-center items-center">
                     <div className="transition ease-in delay-10 duration-150 hover:scale-110 pr-3">
-                        <img className="rounded-full object-cover w-96" src="/img/ohm.jpg" alt="Ohm Rajpal"/>
+                        <img className="rounded-full object-cover w-96" src="/img/OhmArnabCaltech.jpg" alt="Ohm Rajpal"/>
                     </div>
                     <p className="text-xl py-5 leading-8 text-pretty text-white w-full md:w-1/2">
-                    Hello everyone! My name is Ohm, and I am a student at UC Berkeley. I have a variety of interests such as 
-                    physics, astronomy, psychology, and music! In my free time, I enjoy hiking,
-                    playing the cello, solving the daily Semantle puzzle, and hanging out with friends. 
-                    Additionally, I love traveling and trying out different foods. Let&rsquo;s connect and work together! 
+                    Hello everyone! My name is Ohm, and I'm a third year EECS major at UC Berkeley. I love hiking, 
+                    boba, hackathons, trying new foods, solving puzzles, traveling, and spending time with friends! Let&rsquo;s connect and build together :&gt;
                     </p>
                 </div>
             </div>

@@ -19,12 +19,12 @@ export default function FrontPage() {
           </div>
         </div>
         
-        <h3 className="text-2xl pt-4 mt-4 text-white">Software Engineer and Aspiring Undergraduate Researcher</h3>
+        <h3 className="text-2xl pt-4 mt-4 text-white">Software Engineer and Undergraduate Researcher</h3>
         
         <div className="flex justify-center">        
           <p className="sm text-lg py-5 leading-8 text-pretty text-white w-1/2">
-          Second year ⚡ Electrical Engineering and Computer Sciences Major ⚡ at UC Berkeley with a passion
-          in full stack web development 💻, machine learning 🧠, aerospace technology 🚀, and more! 
+          Third year ⚡ Electrical Engineering and Computer Sciences Major ⚡ at UC Berkeley with a passion
+          in backend development 💻, operating systems 🤩, security 🔒, and AI 🧠! 
           </p>
         </div>
 

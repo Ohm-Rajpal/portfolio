@@ -28,7 +28,7 @@ export default function MyFooter({mySize}) {
         <div className="text-center text-wrap ">  
         
           <p className="text-white text-lg p-5 mt-4">Made with ⚡ by Ohm Rajpal</p>
-          <p className="text-white text-lg p-5 mb-2">Copyright © 2024 Ohm Rajpal. All Rights Reserved.</p>
+          <p className="text-white text-lg p-5 mb-2">Copyright © {new Date().getFullYear()} Ohm Rajpal. All Rights Reserved.</p>
         </div>
       
       </div>

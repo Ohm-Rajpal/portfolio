@@ -30,7 +30,7 @@ export default function MyNav() {
                       <CustomButton innerText={"Projects"} onClick={() => handleButtonClick('projects')} />
                   </li>
                   <li className="flex justify-center md:px-1">
-                      <CustomButton innerText={"Resume"} onClick={() => { window.location.href="https://drive.google.com/file/d/1M_vaRet-f_DwfrEJWZ1FTM7olLXJ8f7w/view?usp=sharing"}} />
+                      <CustomButton innerText={"Resume"} onClick={() => { window.location.href="https://drive.google.com/file/d/1ivaz0PBcijwwacADG7CvxOg4tHkxKo_p/view?usp=sharing"}} />
                   </li>
                   <li className="flex justify-center md:px-1">
                       <CustomButton innerText={"Contact"} onClick={() => handleButtonClick('footer')} />

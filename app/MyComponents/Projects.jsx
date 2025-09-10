@@ -18,21 +18,20 @@ export default function Projects() {
             
         <Experience
         justifyDir={"justify-end"} 
-        imgName={"/img/inventory.png"}
-        title={'Inventory Management'}
-        description={"Developed a real-time CRUD inventory management system using Next.js, TypeScript, and Firebase. Used React and Material UI for the interactive design, TypeScript for type safety, and Firebase for the backend to enable real-time feedback!"}
-        skills={['Next.js', 'React', 'TypeScript', 'Firebase', 'Material UI']}
-        githubLink={'https://github.com/Ohm-Rajpal/inventory-tracker'}
+        imgName={"/img/caltech.png"}
+        title={'Neurosphere'}
+        description={"Won 1st place at Caltech's largest hackathon! Built a brain tumor detector with MRI analysis, health insights, and a 3D interactive brain model!"}
+        skills={['FastAPI', 'Docker', 'React', 'MongoDB', 'OpenAI API', 'Tensorflow']}
+        githubLink={'https://github.com/arniber21/Neurosphere.git'}
         /> 
-
         
         <Experience 
         justifyDir={"justify-start"}
-        imgName={"/img/magnifying.jpg"}
-        title={'Reverse Semantle'}
-        description={"Fun NLP project that sucessfully reverse engineers semantle using gensim. Currently working on the front end now."}
-        skills={['Python', 'gensim', 'numpy', 'Next.js', 'TypeScript', 'React']}
-        githubLink={'https://github.com/Ohm-Rajpal/Reverse-Semantle'}
+        imgName={"/img/NewSpaceV2.jpeg"}
+        title={'AI Job Webscraper'}
+        description={"Fullstack AI-powered job scraper with weekly updates built for my club NewSpace @ Berkeley"}
+        skills={['Node.js', 'Express.js', 'TypeScript', 'MongoDB Atlas', 'SerpAPI', 'OpenAI API']}
+        githubLink={'https://github.com/Ohm-Rajpal/NewSpace-Scraper-V2'}
         /> 
 
         <Experience 
@@ -43,7 +42,6 @@ export default function Projects() {
         skills={['Next.js', 'React', 'Tailwind CSS', 'JavaScript']}
         githubLink={'https://github.com/Ohm-Rajpal/portfolio'}
         /> 
-
       
         <Experience
         justifyDir={"justify-start"}
