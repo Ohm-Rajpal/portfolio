@@ -26,10 +26,10 @@ export default function About() {
                             height={384}
                         />
                     </div>
-                    <p className="text-xl py-5 leading-8 text-pretty text-white w-full md:w-1/2">
-                    Hello everyone! My name is Ohm, and I'm a third year EECS major at UC Berkeley. I love hiking, 
-                    boba, hackathons, trying new foods, solving puzzles, traveling, and spending time with friends! Let&rsquo;s connect and build together :&gt;
-                    </p>
+                        <p className="text-xl py-5 leading-8 text-pretty text-white w-full md:w-1/2">
+                        {`Hello everyone! My name is Ohm, and I'm a third year EECS major at UC Berkeley. I love hiking, 
+                        boba, hackathons, trying new foods, solving puzzles, traveling, and spending time with friends! Let's connect and build together :>`}
+                        </p>
                 </div>
             </div>
 
