@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import MyArrow from "./MyArrow";
 import { scrollTo } from "../scrollTo";
 
@@ -15,7 +16,13 @@ export default function FrontPage() {
 
         <div className="flex justify-center py-2">
           <div className="transition ease-in delay-10 duration-150 hover:scale-110">
-            <img className="rounded-full object-scale-downh-48 w-80" src="/img/ohm-rajpal.jpg" alt="Ohm Rajpal"/>
+            <Image 
+              className="rounded-full object-scale-downh-48 w-80" 
+              src="/img/ohm-rajpal.jpg" 
+              alt="Ohm Rajpal" 
+              width={320} 
+              height={320} 
+            />
           </div>
         </div>
         

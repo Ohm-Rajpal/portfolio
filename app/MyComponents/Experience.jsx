@@ -1,4 +1,5 @@
 import { React } from "react";
+import Image from "next/image";
 
 export default function Experience({justifyDir, imgName, title, description, skills, githubLink}) {
 
@@ -10,7 +11,7 @@ export default function Experience({justifyDir, imgName, title, description, ski
             <div className="max-w-sm rounded-3xl overflow-hidden shadow-lg text-white border-white hover:border-pink-300 border-4 h-full">
                 
                 <div className="flex justify-center h-32 pt-3">
-                    <img src={imgName} alt="Ohm Rajpal"/>
+                    <Image src={imgName} alt="Ohm Rajpal" width={128} height={128} />
                 </div>
                 
                 <div className="px-3 py-1">
@@ -29,4 +30,3 @@ export default function Experience({justifyDir, imgName, title, description, ski
     </div>
     )
 }
-
